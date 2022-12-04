@@ -17,7 +17,9 @@ export default class NewsItem extends Component {
             alt="news"
           />
           <div className="card-body">
-            <h5 className="card-title">{title}</h5>
+            <h5 className="card-title" style={{ fontSize: "15px" }}>
+              {title} <span style={{ fontSize: "10px" }}>(Full Video👇)</span>
+            </h5>
             <a
               href={url}
               rel="noreferrer"

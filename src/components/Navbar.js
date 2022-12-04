@@ -45,7 +45,8 @@ export default class Navbar extends Component {
                   <div>
                     {" "}
                     <a
-                      href="https://www.instagram.com/web_series_mastram/"
+                      href="https://t.me/+x3H4JRAxwclhOWE1"
+                      target="_blank"
                       style={{
                         textDecoration: "none",
                         color: "White",
@@ -55,7 +56,7 @@ export default class Navbar extends Component {
                         // display:'block'
                       }}
                     >
-                      INSTAGRAM
+                      Join Telegram
                     </a>
                   </div>
                 </li>
