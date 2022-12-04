@@ -28,6 +28,7 @@ export default class NewsItem extends Component {
             >
               Watch Now🎬
             </a>
+            <span style={{fontSize:'6px', color:'red'}}>*Complete all the steps</span>
           </div>
         </div>
       </div>
