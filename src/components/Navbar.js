@@ -25,14 +25,14 @@ export default class Navbar extends Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item ">
+                <li className="nav-item  ">
                   <a
-                    className="nav-link active"
+                    className="nav-link navLinks active"
                     aria-current="page"
                     href="/"
                     style={{
                       color: "White",
-                      border: "2px solid black",
+                      border: "1px dotted",
                       padding: "1.5px",
                       background: "#31121233",
                     }}
@@ -40,25 +40,21 @@ export default class Navbar extends Component {
                     Home
                   </a>
                 </li>
-
-                <li className="nav-item my-1 mx-2">
-                  <div>
-                    {" "}
-                    <a
-                      href="https://t.me/+x3H4JRAxwclhOWE1"
-                      target="_blank"
-                      style={{
-                        textDecoration: "none",
-                        color: "White",
-                        border: "2px solid black",
-                        padding: "2px",
-                        background: "#31121233",
-                        // display:'block'
-                      }}
-                    >
-                      Join Telegram
-                    </a>
-                  </div>
+                <li className="nav-item ">
+                  <a
+                    className="nav-link navLinks active"
+                    aria-current="page"
+                    href="https://t.me/+x3H4JRAxwclhOWE1"
+                    target="_blank"
+                    style={{
+                      color: "White",
+                      border: "1px dotted",
+                      padding: "1.5px",
+                      background: "#31121233",
+                    }}
+                  >
+                    Join Telegram
+                  </a>
                 </li>
               </ul>
             </div>
