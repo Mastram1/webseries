@@ -26,19 +26,39 @@ export default class Navbar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item ">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="/"
+                    style={{
+                      color: "White",
+                      border: "2px solid black",
+                      padding: "1.5px",
+                      background: "#31121233",
+                    }}
+                  >
                     Home
                   </a>
                 </li>
-                
-                <li className="nav-item my-2">
-                  <a
-                    href="https://www.instagram.com/web_series_mastram/"
-                    target={"_blank"} style={{textDecoration:'none'}}
-                    class="fa fa-instagram"
-                  ></a>
+
+                <li className="nav-item my-1 mx-2">
+                  <div>
+                    {" "}
+                    <a
+                      href="https://www.instagram.com/web_series_mastram/"
+                      style={{
+                        textDecoration: "none",
+                        color: "White",
+                        border: "2px solid black",
+                        padding: "2px",
+                        background: "#31121233",
+                        // display:'block'
+                      }}
+                    >
+                      INSTAGRAM
+                    </a>
+                  </div>
                 </li>
-                
               </ul>
             </div>
           </div>
