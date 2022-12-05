@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
   render() {
@@ -6,9 +7,9 @@ export default class Navbar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to="/">
               Web Series
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -26,10 +27,10 @@ export default class Navbar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item  ">
-                  <a
+                  <Link
                     className="nav-link navLinks active"
                     aria-current="page"
-                    href="/"
+                    to="/"
                     style={{
                       color: "White",
                       border: "1px dotted",
@@ -38,7 +39,7 @@ export default class Navbar extends Component {
                     }}
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item ">
                   <a
@@ -55,6 +56,21 @@ export default class Navbar extends Component {
                   >
                     Join Telegram
                   </a>
+                </li>
+                <li className="nav-item ">
+                  <Link
+                    className="nav-link navLinks active"
+                    aria-current="page"
+                    to="/watch"
+                    style={{
+                      color: "White",
+                      border: "1px dotted",
+                      padding: "1.5px",
+                      background: "#31121233",
+                    }}
+                  >
+                    Download All Episodes
+                  </Link>
                 </li>
               </ul>
             </div>
