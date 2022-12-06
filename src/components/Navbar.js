@@ -58,6 +58,22 @@ export default class Navbar extends Component {
                   </a>
                 </li>
                 <li className="nav-item ">
+                  <a
+                    className="nav-link navLinks active"
+                    aria-current="page"
+                    href="https://www.trackcherry.com/41RKC2K/2CTPL/?uid=12"
+                    target="_blank"
+                    style={{
+                      color: "White",
+                      border: "1px dotted",
+                      padding: "1.5px",
+                      background: "#31121233",
+                    }}
+                  >
+                    Ullu Webseries
+                  </a>
+                </li>
+                <li className="nav-item ">
                   <Link
                     className="nav-link navLinks active"
                     aria-current="page"
