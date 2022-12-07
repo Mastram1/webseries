@@ -30,7 +30,8 @@ export class Watch extends Component {
             <a
               type="button"
               className="btn my-1 btn-primary btn-lg btn-b d-block"
-              href="https://t.acam.link/246207/3664/29941?bo=2779,2778,2777,2776,2775&po=6533"
+              // href="https://t.acam.link/246207/3664/29941?bo=2779,2778,2777,2776,2775&po=6533"
+              href="/"
               target="_blank"
             >
               Download Now
