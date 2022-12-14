@@ -45,8 +45,7 @@ export default class Navbar extends Component {
                   <a
                     className="nav-link navLinks active"
                     aria-current="page"
-                    // href="https://t.me/+x3H4JRAxwclhOWE1"
-                    href="/"
+                    href="https://t.me/+x3H4JRAxwclhOWE1"
                     target="_blank"
                     style={{
                       color: "White",
@@ -62,8 +61,7 @@ export default class Navbar extends Component {
                   <a
                     className="nav-link navLinks active"
                     aria-current="page"
-                    // href="https://www.trackcherry.com/41RKC2K/2CTPL/?uid=12"
-                    href="/"
+                    href="https://www.trackcherry.com/41RKC2K/2CTPL/?uid=12"
                     target="_blank"
                     style={{
                       color: "White",
