@@ -41,22 +41,7 @@ export default class Navbar extends Component {
                     Home
                   </Link>
                 </li>
-                <li className="nav-item ">
-                  <a
-                    className="nav-link navLinks active"
-                    aria-current="page"
-                    href="https://t.me/+x3H4JRAxwclhOWE1"
-                    target="_blank"
-                    style={{
-                      color: "White",
-                      border: "1px dotted",
-                      padding: "1.5px",
-                      background: "#31121233",
-                    }}
-                  >
-                    Join Telegram
-                  </a>
-                </li>
+             
                 <li className="nav-item ">
                   <a
                     className="nav-link navLinks active"
