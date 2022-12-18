@@ -1,10 +1,15 @@
 
 import React, { Component } from "react";
 import logo from "../img/alleps.jpg";
+
 // import './payment.css';
 
 export class Watch extends Component {
+  
   render() {
+     function handleClick() {
+         window.open("https://www.example.com", "_blank");
+     }
     return (
       <>
         <div className="container">
