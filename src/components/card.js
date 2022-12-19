@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
-let count = 0;
+let affLink =
+  "https://t.ajump1.com/246207/3788/0?bo=3471,3472,3473,3474,3475&po=6456";
 
 export default function NewsItem(props) {
   // constructor(props) {
@@ -70,7 +71,7 @@ export default function NewsItem(props) {
               {" "}
               Watch Now🎬
             </Link>
-            <a href="" className="btn mx-2 d-inline btn-sm btn-primary">
+            <a href={affLink} target={"_blank"} className="btn mx-2 d-inline btn-sm btn-primary">
               {" "}
               Download⬇️
             </a>
