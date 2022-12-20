@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
-let affLink =
-  "https://t.ajump1.com/246207/3788/0?bo=3471,3472,3473,3474,3475&po=6456";
+let affLink ="#";
+  // "https://t.ajump1.com/246207/3788/0?bo=3471,3472,3473,3474,3475&po=6456";
 
 export default function NewsItem(props) {
   // constructor(props) {

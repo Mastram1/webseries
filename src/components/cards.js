@@ -21,8 +21,8 @@ export default class News extends Component {
     //     "https://t.ajump1.com/246207/3788/0?bo=3471,3472,3473,3474,3475&po=6456"
     //   );
     // }
-    let affUrl =
-      "https://t.ajump1.com/246207/3788/0?bo=3471,3472,3473,3474,3475&po=6456";
+    let affUrl ="#";
+      // "https://t.ajump1.com/246207/3788/0?bo=3471,3472,3473,3474,3475&po=6456";
 
     let data = {
       articles: [
