@@ -3,7 +3,7 @@ import React from "react";
 import News from "./components/cards";
 import Navbar from "./components/Navbar";
 import Watch from "./components/watch";
-import Blog from "./components/blog";
+
 
 // import Video from "./components/Video";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -19,7 +19,7 @@ import Video from "./components/video";
       <Router>
         <>
           <Navbar />
-          <Blog/>
+         
         </>
         <Routes>
           <Route exact path="/" element={<News />} />

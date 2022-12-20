@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NewsItem from "./card";
 import "../App.css";
+import Blog from "./blog";
 
 export default class News extends Component {
   articles = [];
@@ -157,19 +158,22 @@ export default class News extends Component {
   }
   render() {
     return (
-      <div className="container newsContainer">
-        {this.state.articles.map((ele) => {
-          return (
-            <div key={ele.url}>
-              <NewsItem
-                title={ele.title ? ele.title.slice(0, 30) : "Title"}
-                imgUrl={ele.urlToImage}
-                url={ele.VideoUrl}
-              />
-            </div>
-          );
-        })}
-      </div>
+      <>
+        <Blog />
+        <div className="container newsContainer">
+          {this.state.articles.map((ele) => {
+            return (
+              <div key={ele.url}>
+                <NewsItem
+                  title={ele.title ? ele.title.slice(0, 30) : "Title"}
+                  imgUrl={ele.urlToImage}
+                  url={ele.VideoUrl}
+                />
+              </div>
+            );
+          })}
+        </div>
+      </>
     );
   }
 }

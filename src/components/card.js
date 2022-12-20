@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
+
 let affLink ="#";
   // "https://t.ajump1.com/246207/3788/0?bo=3471,3472,3473,3474,3475&po=6456";
 
@@ -40,48 +41,55 @@ export default function NewsItem(props) {
     //   }
     // }
     return (
-      <div className="cardStyle">
-        <div
-          className="card newsCard"
-          style={{ width: "18rem", backgroundColor: "#fff0" }}
-        >
-          <img
-            className="card-img-top"
-            style={{ height: "12rem" }}
-            src={props.imgUrl}
-            alt="news"
-          />
-          <div className="card-body">
-            <h5 className="card-title" style={{ fontSize: "15px" }}>
-              {props.title}{" "}
-              <span style={{ fontSize: "10px" }}>(Full Video👇)</span>
-            </h5>
-            {/* <button
+      <>
+        
+        <div className="cardStyle">
+          <div
+            className="card newsCard"
+            style={{ width: "18rem", backgroundColor: "#fff0" }}
+          >
+            <img
+              className="card-img-top"
+              style={{ height: "12rem" }}
+              src={props.imgUrl}
+              alt="news"
+            />
+            <div className="card-body">
+              <h5 className="card-title" style={{ fontSize: "15px" }}>
+                {props.title}{" "}
+                <span style={{ fontSize: "10px" }}>(Full Video👇)</span>
+              </h5>
+              {/* <button
               onClick={() => handleClick(url)} target={'_blank'}
               className="btn d-inline btn-sm btn-primary"
             >
               Watch Now🎬
             </button> */}
 
-            <Link
-              to="/video"
-              state={{ from: props.url }}
-              className="btn d-inline btn-sm btn-primary"
-            >
-              {" "}
-              Watch Now🎬
-            </Link>
-            <a href={affLink} target={"_blank"} className="btn mx-2 d-inline btn-sm btn-primary">
-              {" "}
-              Download⬇️
-            </a>
-            <span style={{ fontSize: "10px", color: "red" }}></span>
-            {/* <div style={{ fontSize: "10px", color: "red" }}>
+              <Link
+                to="/video"
+                state={{ from: props.url }}
+                className="btn d-inline btn-sm btn-primary"
+              >
+                {" "}
+                Watch Now🎬
+              </Link>
+              <a
+                href={affLink}
+                target={"_blank"}
+                className="btn mx-2 d-inline btn-sm btn-primary"
+              >
+                {" "}
+                Download⬇️
+              </a>
+              <span style={{ fontSize: "10px", color: "red" }}></span>
+              {/* <div style={{ fontSize: "10px", color: "red" }}>
               Link Will Work On Second Click
             </div> */}
+            </div>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 
