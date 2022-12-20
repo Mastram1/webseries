@@ -5,9 +5,9 @@ import logo from "../img/alleps.jpg";
 
 export class Watch extends Component {
   render() {
-    function handleClick() {
-      window.open("https://www.example.com", "_blank");
-    }
+    // function handleClick() {
+    //   window.open("https://www.example.com", "_blank");
+    // }
     return (
       <>
         <div className="container">
@@ -26,7 +26,6 @@ export class Watch extends Component {
               height: "100px",
               marginTop: "10px",
               maxWidth: "100%",
-              height: "auto",
             }}
           />
           <div className="d-block">
@@ -34,7 +33,7 @@ export class Watch extends Component {
               type="button"
               className="btn my-1 btn-primary btn-lg btn-b d-block"
               // href="https://t.acam.link/246207/3664/29941?bo=2779,2778,2777,2776,2775&po=6533"
-              // href="/"
+              href="/"
               target="_blank"
             >
               Download Now
