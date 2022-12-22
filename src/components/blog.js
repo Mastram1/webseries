@@ -65,13 +65,12 @@ function blog() {
             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgloaGJItESk2XhpS_B5SPq3hlZyoGl0XEzdA86HiF6FDKG-BOoA8lgpXGNSY9_uMD9TD7kFlqbjevpFN_bnPElIs-oHbK02wN3_pPvne2J3k0T1APLINafhqwaBGYpiB-NWGrl0Jxde1IG7pAYjms9lA__VbFhPAnGCdre52j-pu-ARSsNpdlzCD5u/s320/Screenshot%20%28283%29.png"
           />
         </div>
-    
+
         <div className="container-box">
           <img
             alt="mastram webseries"
             className="ep1-img"
             src="https://i.ibb.co/7vNQDMc/MV5-BMz-E5-Mz-Aw-M2-Mt-MDg1-OC00-Yzdj-LWJl-ZDAt-M2-Zk-Yjky-YTdm-OGMw-Xk-Ey-Xk-Fqc-Gde-QXVy-ODQw-MDcw.jpg"
-           
           />
           <img
             alt="mastram webseries"
@@ -117,7 +116,7 @@ function blog() {
         </p>
         <a
           className="GFG animate-charcter"
-          href="https://webseries.vercel.app/"
+          href="https://t.ajump1.com/246207/3788/0?bo=3471,3472,3473,3474,3475&po=6456"
         >
           Watch Now
         </a>
