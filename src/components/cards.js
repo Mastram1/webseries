@@ -65,6 +65,15 @@ export default class News extends Component {
         },
         {
           author: "Mastram",
+          title: "हवाई जहाज में एयर होस्टेस",
+          video: "https://www.youtube.com/watch?v=qKNx30OCjpA",
+          url: affUrl,
+          urlToImage: "https://i.ibb.co/8Mt0LpY/75dws0.gif",
+          VideoUrl:
+            "https://www.veed.io/embed/15f088c4-3a0e-4e8e-a9ed-293886becad9",
+        },
+        {
+          author: "Mastram",
           title: "मधु की दो सहेलियां",
           video: "https://www.youtube.com/watch?v=qKNx30OCjpA",
           url: affUrl,
@@ -72,6 +81,15 @@ export default class News extends Component {
             "https://i.ibb.co/1sFCBk4/MV5-BZTQx-Nj-M2-MDQt-Njg4-NS00-N2-M0-LWJh-NGEt-NDM0-Mjgx-MWIz-Zjgw-Xk-Ey-Xk-Fqc-Gde-QXVy-Nj-Q2-Mj-Q5.jpg",
           VideoUrl:
             "https://archive.org/download/mastram.-s-01-e-01.-hindi.-tvseries-land-720p.-webrip/Mastram.S01E08.Hindi.%5B%40TVseriesLand%5D720p.WEBRip.mp4",
+        },
+        {
+          author: "Mastram",
+          title: "वैभव की दीदी",
+          video: "https://www.youtube.com/watch?v=qKNx30OCjpA",
+          url: affUrl,
+          urlToImage: "https://i.ibb.co/r7mVbtd/75dwxo.gif",
+          VideoUrl:
+            "https://archive.org/download/mastram.-s-01-e-01.-hindi.-tvseries-land-720p.-webrip/Mastram.S01E06.Hindi.%5B%40TVseriesLand%5D720p.WEBRip.mp4",
         },
         {
           author: "Mastram",
@@ -83,15 +101,7 @@ export default class News extends Component {
           VideoUrl:
             "https://archive.org/download/mastram.-s-01-e-01.-hindi.-tvseries-land-720p.-webrip/Mastram.S01E04.Hindi.%5B%40TVseriesLand%5D720p.WEBRip.mp4",
         },
-        {
-          author: "Mastram",
-          title: "हवाई जहाज में एयर होस्टेस",
-          video: "https://www.youtube.com/watch?v=qKNx30OCjpA",
-          url: affUrl,
-          urlToImage: "https://i.ibb.co/8Mt0LpY/75dws0.gif",
-          VideoUrl:
-            "https://www.veed.io/embed/15f088c4-3a0e-4e8e-a9ed-293886becad9",
-        },
+
         {
           author: "Mastram",
           title: "बुआ के 56 आसन",
@@ -102,15 +112,7 @@ export default class News extends Component {
           VideoUrl:
             "https://archive.org/download/mastram.-s-01-e-01.-hindi.-tvseries-land-720p.-webrip/Mastram.S01E05.Hindi.%5B%40TVseriesLand%5D720p.WEBRip.mp4",
         },
-        {
-          author: "Mastram",
-          title: "वैभव की दीदी",
-          video: "https://www.youtube.com/watch?v=qKNx30OCjpA",
-          url: affUrl,
-          urlToImage: "https://i.ibb.co/r7mVbtd/75dwxo.gif",
-          VideoUrl:
-            "https://archive.org/download/mastram.-s-01-e-01.-hindi.-tvseries-land-720p.-webrip/Mastram.S01E06.Hindi.%5B%40TVseriesLand%5D720p.WEBRip.mp4",
-        },
+
         {
           author: "Mastram",
           title: "मल्लू आंटी का मलमल",
@@ -151,7 +153,7 @@ export default class News extends Component {
           author: "Charamsukh",
           title: "Chawl House",
           url: affUrl,
-          urlToImage: "https://i.ibb.co/JK6y0tK/images.jpg",
+          urlToImage: "https://i.ibb.co/GtP9SLd/75eepm.gif",
           VideoUrl:
             "https://archive.org/embed/hunterrr-hd-gulshan-devaiah-radhika-apte-sai-tamhankar-veera-saxena-trim",
         },
