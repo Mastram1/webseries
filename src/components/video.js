@@ -14,18 +14,28 @@ console.log("Location From Cards", location);
   // console.log(props);
  
   return (
-    <div className="">
-      {loading && <div className="spinner"/>}
+    <div className="d-flex">
+      {loading && <div className="spinner" />}
       <iframe
         onLoad={() => setLoading(false)}
         src={location.state.from}
-        width="100%"
+        width="80%"
         height="600"
         frameborder="0"
         webkitallowfullscreen="true"
         mozallowfullscreen="true"
         allowfullscreen
       ></iframe>
+      <a href="https://t.adtng2.com/246207/3785/0?bo=Array&target=banners&pyt=multi&file_id=334491&po=6456" target={"_blank"}>
+       <img src="https://i.ibb.co/GtDzPPf/75defo.gif" alt="75defo" border="0"/>
+     
+       <img src="https://i.ibb.co/5Lq9B9K/75dfwo.gif" alt="75dfwo" border="0"/>
+     
+<img src="https://i.ibb.co/hMtRLzF/75dg78.gif" alt="75dg78" border="0"/>
+     
+       <img src="https://i.ibb.co/wBG7hfJ/gif1.gif" alt="gif1" border="0"/>
+      </a>
+     
     </div>
   );
 }

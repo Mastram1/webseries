@@ -71,7 +71,7 @@ export default function NewsItem(props) {
                 state={{ from: props.url }}
                 className="btn d-inline btn-sm btn-primary"
               >
-                {" "}
+            
                 Watch Now🎬
               </Link>
               <a
@@ -79,7 +79,7 @@ export default function NewsItem(props) {
                 target={"_blank"}
                 className="btn mx-2 d-inline btn-sm btn-primary"
               >
-                {" "}
+              
                 Download⬇️
               </a>
               <span style={{ fontSize: "10px", color: "red" }}></span>

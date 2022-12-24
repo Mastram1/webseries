@@ -167,10 +167,14 @@ export default class News extends Component {
                   imgUrl={ele.urlToImage}
                   url={ele.VideoUrl}
                 />
+                <div>
+                  
+                </div>
               </div>
             );
           })}
         </div>
+        <div><img src="" alt="" /></div>
       </>
     );
   }
