@@ -20,7 +20,7 @@ console.log("Location From Cards", location);
         onLoad={() => setLoading(false)}
         src={location.state.from}
         width="80%"
-        height="600"
+        height="300"
         frameborder="0"
         webkitallowfullscreen="true"
         mozallowfullscreen="true"
