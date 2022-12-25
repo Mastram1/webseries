@@ -155,7 +155,7 @@ export default class News extends Component {
           url: affUrl,
           urlToImage: "https://i.ibb.co/GtP9SLd/75eepm.gif",
           VideoUrl:
-            "https://archive.org/embed/hunterrr-hd-gulshan-devaiah-radhika-apte-sai-tamhankar-veera-saxena-trim",
+            "https://desiporn.tube/get_file/1/81454486a7b0067b63b2dc726d1e4c2a7261c9c24a/12000/12983/12983_hq.mp4/?d=884&br=168&ti=1671972713",
         },
       ],
     };
