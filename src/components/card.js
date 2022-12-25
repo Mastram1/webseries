@@ -42,21 +42,26 @@ export default function NewsItem(props) {
     // }
     return (
       <>
-        
         <div className="cardStyle">
           <div
             className="card newsCard"
             style={{ width: "18rem", backgroundColor: "#fff0" }}
           >
-            <img
-              className="card-img-top"
-              style={{ height: "12rem" }}
-              src={props.imgUrl}
-              alt="news"
-            />
+            <a
+              href="https://t.adtng2.com/246207/3785/0?bo=2753,2754,2755,2756&pyt=multi&po=6456"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <img
+                className="card-img-top"
+                style={{ height: "12rem" }}
+                src={props.imgUrl}
+                alt="news"
+              />
+            </a>
             <div className="card-body">
               <h5 className="card-title" style={{ fontSize: "15px" }}>
-                {props.title}{" "}
+                {props.title}
                 <span style={{ fontSize: "10px" }}>(Full Video👇)</span>
               </h5>
               {/* <button
@@ -71,7 +76,6 @@ export default function NewsItem(props) {
                 state={{ from: props.url }}
                 className="btn d-inline btn-sm btn-primary"
               >
-            
                 Watch Now🎬
               </Link>
               <a
@@ -79,7 +83,6 @@ export default function NewsItem(props) {
                 target={"_blank"}
                 className="btn mx-2 d-inline btn-sm btn-primary"
               >
-              
                 Download⬇️
               </a>
               <span style={{ fontSize: "10px", color: "red" }}></span>
